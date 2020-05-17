@@ -1,0 +1,42 @@
+h1{
+   color:#ffff9f
+}
+h2{
+    color:#9f0f8f
+}
+
+*{
+  display:flex;
+  border: solid;
+  background:#ff6f00
+}
+.header{
+    border: solid;
+    justify-content: space-between;
+}
+p,h1,h2{
+  text-align: flex;
+}
+a:link{
+  color:whitesmoke;
+}
+a:visited{
+  color:whitesmoke;
+}
+.menu{
+  margin-right: 30px;
+}
+.item{
+  position: relative;
+}
+.item p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.item.hover p{
+  opacity: 1;
+}
+
+
